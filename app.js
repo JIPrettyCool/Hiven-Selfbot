@@ -14,8 +14,8 @@ client.on("message", (message) => {
   const args = message.content.slice(config.prefix.length).split(" ");
   const command = args.shift().toLowerCase();
   
-if(command === "mericleak") {
-  message.room.send("https://media.hiven.io/v1/attachments/183582813251957528/image.png")
+if(command === "say-hi") {
+  message.room.send("hello")
 }
 
 
